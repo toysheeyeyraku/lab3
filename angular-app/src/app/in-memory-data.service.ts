@@ -93,6 +93,12 @@ function getDbData() {
       description: 'Bag of 7 fresh McIntosh apples',
       quantity: 1,
     },
+    {
+      id: 40,
+      name: 'Bohdan',
+      description: 'Bohdan Kovtun Lab3',
+      quantity: 1,
+    }
   ];
   return { products } as Db;
 }
